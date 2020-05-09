@@ -1,0 +1,34 @@
+REQUEST BODY FOR ADDING PRODUCTS:
+
+{
+"name":"Tea",
+"description":"Ayurvedic-Herbal",
+"quantity":50,
+"unitPrice":5
+}
+
+REQUEST BODY FOR ADDING USER:
+
+{
+"name":"rajat dey",
+"email":"test@gmail.com"
+}
+
+REQUEST BODY FOR SHOPPING CART:
+
+{
+"user":{
+	"email":"test@gmail.com",
+	"name":"rajat dey"
+},
+"product":{
+	"unitPrice":5,
+	"quantity":50,
+	"description":"Ayurvedic-Herbal",
+	"name":"Tea"
+},
+"stock":5,
+"amount":12,
+"status":"Available",
+"date":"09-05-2020"
+}
