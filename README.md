@@ -89,3 +89,4 @@ http://localhost:8080/shoppingCart/purchase/{id}
 
 HISTORY ENDPOINT TO CHECK ORDER HISTORY:
 http://localhost:8080/history
+
