@@ -1,10 +1,10 @@
-This is a Sample Backend Application which implements a simple e-Commerce website functionality.
-What it does: 
-A basic "CRUD" operation.
+# This is a Sample Backend Application which implements a simple e-Commerce website functionality.
+## What it does: 
+### A basic "CRUD" operation.
 Joining of 3 tables to fianlly place Order
 Manipulate the USER, PRODUCT & SHOPPING CART Details
 
-SETTING UP OF THE DATABASE :
+## SETTING UP OF THE DATABASE :
 Install MySQL
 Create a Database with name rajat
 username: root
@@ -14,7 +14,7 @@ USE THESE COMMANDS IN SQL QUERY:-
 SHOW DATABASES;
 USE rajat;
 
-CREATE THREE TABLES:-
+## CREATE THREE TABLES:-
 CREATE TABLE product (id long, name VARCHAR(20),
        description VARCHAR(50), quantity Integer, unit_price double);
 	   
@@ -28,7 +28,7 @@ For Connection you can refer the application.properties file
 
 FOR USING DUMMY REQUEST BODY, PLEASE REFER THE requestbody.json FILE.
 
-ENDPOINTS:-
+## ENDPOINTS:-
 USER ENDPOINT:
 
 For Adding Users
@@ -46,7 +46,7 @@ http://localhost:8080/users/deleteUser/{id}
 For Deleting User
 http://localhost:8080/users/deleteUser
 
-PRODUCT ENDPOINT:
+## PRODUCT ENDPOINT:
 
 For Adding Product
 http://localhost:8080/products/addProducts
@@ -64,7 +64,7 @@ Get All Products
 http://localhost:8080/products
 
 
-SHOPPING CART ENDPOINT:
+## SHOPPING CART ENDPOINT:
 
 For adding to shopping Cart:
 http://localhost:8080/shoppingCart/addItem
@@ -87,5 +87,5 @@ http://localhost:8080/shoppingCart//updateItem/{id}
 Purchasing Item in the Cart
 http://localhost:8080/shoppingCart/purchase/{id}
 
-HISTORY ENDPOINT TO CHECK ORDER HISTORY:
+## HISTORY ENDPOINT TO CHECK ORDER HISTORY:
 http://localhost:8080/history
