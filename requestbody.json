@@ -14,7 +14,7 @@ REQUEST BODY FOR ADDING USER:
 "email":"test@gmail.com"
 }
 
-REQUEST BODY FOR SHOPPING CART:
+REQUEST BODY TO ADD IN SHOPPING CART(POST):
 
 {
 "user":{
@@ -32,3 +32,22 @@ REQUEST BODY FOR SHOPPING CART:
 "status":"Available",
 "date":"09-05-2020"
 }
+
+REQUEST BODY TO UPDATE IN SHOPPING CART(PUT):
+{
+"user":{
+	"email":"testupdated@gmail.com",
+	"name":"test update"
+},
+"product":{
+	"unitPrice":10,
+	"quantity":100,
+	"description":"Ayurvedic-Antibiotic",
+	"name":"Coffee"
+},
+"stock":10,
+"amount":24,
+"status":"Available",
+"date":"20-08-2020"
+}
+
